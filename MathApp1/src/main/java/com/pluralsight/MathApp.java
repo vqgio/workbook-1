@@ -7,6 +7,8 @@ public class MathApp {
         question3();
         question4();
         question5();
+        question6();
+        question7();
     }
 
     public static void question1(){
@@ -38,26 +40,22 @@ public class MathApp {
     }
     public static void question4(){
 
-        // Step 1: Set the variable to 5.0
         double number = 5.0;
 
-        // Step 2: Calculate the square root
         double squareRoot = Math.sqrt(number);
 
-        // Step 3: Display the result
         System.out.println("The square root of " + number + " is: " + squareRoot);
 
     }
 
 
     public static void question5(){
-        double first1 = 5;
-        double first2 = 10;
-        double second1 = 85;
-        double second2 = 50;
+        int x1 = 5, y1 = 10;
+        int x2 = 85, y2 = 50;
 
-        double difference = second1 - first1;
-        Math.pow(difference,2);
+        double distance = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - x1), 2));
+        System.out.println("The distance between the points (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is: " + distance);
+
 
 
     }
@@ -66,24 +64,14 @@ public class MathApp {
 
         int absoluteValue = Math.abs(number);
 
-
+        System.out.println("The absolute value of " + number + " is: " + absoluteValue);
 
     }
     public static void question7(){
+        double randomNumber = Math.random();
 
-
+        System.out.println("the random number between 0 and 1 is: " +randomNumber);
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
 }
