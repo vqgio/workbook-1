@@ -16,6 +16,8 @@ public class BasicCalc {
 
         System.out.print("Total is: " + total);
 
+        scan.close();
+
 
 
     }
