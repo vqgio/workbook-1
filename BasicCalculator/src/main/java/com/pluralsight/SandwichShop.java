@@ -76,7 +76,7 @@ public class SandwichShop {
 
 
 
-    / .     // Display the cost of the sandwich
+         // Display the cost of the sandwich
 
         System.out.printf("The cost of your sandwich is: $%.2f%n", finalPrice);
 
