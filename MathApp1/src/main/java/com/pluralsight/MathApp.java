@@ -71,7 +71,7 @@ public class MathApp {
         double randomNumber = Math.random();
 
         System.out.println("the random number between 0 and 1 is: " +randomNumber);
-        System.out.println("Hello");
+
 
     }
 }
