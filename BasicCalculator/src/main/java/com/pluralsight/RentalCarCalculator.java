@@ -6,7 +6,7 @@ public class RentalCarCalculator {
         //scanner start
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter pickup date (e.g., YYYY-MM-DD): ");
+        System.out.print("Enter pickup date (e.g., MM-DD=YYYY): ");
         String pickupDate = scanner.nextLine();
 
         System.out.print("Enter number of days for the rental: ");
@@ -38,7 +38,7 @@ public class RentalCarCalculator {
 
         double totalCost = basicCarRental + optionsCost + underageSurcharge;
 
-        System.out.println("\n--- Rental Cost Summary ---");
+        System.out.println("\n- Rental Cost Summary -");
         System.out.printf("Pickup Date: %s%n", pickupDate);
         System.out.printf("Basic Car Rental: $%.2f%n", basicCarRental);
         System.out.printf("Options Cost: $%.2f%n", optionsCost);
