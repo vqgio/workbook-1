@@ -18,8 +18,6 @@ public class SandwichShop {
 
         int sizeChoice = scanner.nextInt();
 
-
-
         double basePrice;
         double loadedPrice;
 
@@ -44,14 +42,11 @@ public class SandwichShop {
         String loadedChoice = scanner.next();
         boolean isLoaded = loadedChoice.equalsIgnoreCase("yes");
 
-
         // ask user for their age
 
         System.out.print("Please enter your age: ");
 
         int age = scanner.nextInt();
-
-
 
         // Applies discount on age
 
@@ -66,18 +61,12 @@ public class SandwichShop {
             discount = 0.20; // 20% discount for seniors
 
         }
-
-
-
         // final price
         double InitialPrice = isLoaded ? basePrice + loadedPrice : basePrice;
         double discountAmount = basePrice * discount;
         double finalPrice = basePrice - discountAmount;
 
-
-
-         // Display the cost of the sandwich
-
+        // Display the cost of the sandwich
         System.out.printf("The cost of your sandwich is: $%.2f%n", finalPrice);
 
     }
