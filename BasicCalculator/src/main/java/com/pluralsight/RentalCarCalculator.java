@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class RentalCarCalculator {
     public static void main(String[] args) {
-
+        //scanner start
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter pickup date (e.g., YYYY-MM-DD): ");
